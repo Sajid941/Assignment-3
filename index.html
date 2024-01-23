@@ -40,7 +40,7 @@
 </head>
 
 <body class="font-manrope">
-        <header class="lg:w-[1170px] mx-auto">
+        <header class="container  mx-auto lg:w-[1170px]">
                 <!-- navbar section -->
                 <nav class="my-5">
                         <div class="navbar bg-base-100">
@@ -81,7 +81,7 @@
                         </div>
                 </nav>
                 <!-- crousel section -->
-                <div class="mx-4 lg:mx-0 ">
+                <div class="mx-4 lg:mx-0 lg:relative ">
                         <div class="carousel w-full lg:h-[550px]">
                                 <div id="slide1" class="carousel-item  relative w-full">
                                         <img src="Images/1.png" class="w-full" />
@@ -116,17 +116,95 @@
                                         </div>
                                 </div>
                         </div>
-                        <div class="bg-black text-white  p-5 rounded-lg lg:w-[500px] lg:relative float-end bottom-36 right-4">
+                        <div
+                                class="bg-black text-white  p-5 rounded-lg lg:w-[500px] lg:absolute left-[630px] bottom-12 hi">
                                 <h3 class=" font-extrabold lg:text-2xl">Meet all the heroes from the field</h3>
-                                <p class=" font-medium opacity-60 lg:text-xs">Embark on an exhilarating journey as you dive into the heart of the action and meet all the heroes from the field</p>
+                                <p class=" font-medium opacity-60 lg:text-xs">Embark on an exhilarating journey as you
+                                        dive into the heart of the action and meet all the heroes from the field</p>
                         </div>
                 </div>
+                <hr class="border-black border-dashed mt-10 opacity-20">
+
         </header>
         <!--main section -->
 
-        <main>
+        <main class="container mx-auto mt-10 lg:w-[1170px] lg:mt-10">
                 <!-- club section -->
-                
+                <div class="text-center px-3 space-y-5 lg:px-40 ">
+                        <h1 class="text-2xl font-extrabold lg:text-4xl">Professional Hockeys Club</h1>
+                        <p class="opacity-60">Welcome to the exclusive realm of our Professional Hockey Club, where the
+                                ice meets excellence and passion converges with skill.</p>
+                </div>
+                <hr class="border-black border-dashed mt-10 opacity-20">
+
+                <div class=" text-center mt-10 space-y-8 px-10  lg:space-y-0 lg:flex ">
+                        <div class="space-y-5">
+                                <div class="radial-progress text-primary-color" style="--value:87;" role="progressbar">
+                                        <span class="text-[#131318] text-xl font-extrabold">87%</span>
+                                </div>
+                                <h3 class="text-2xl font-semibold">Prayer Facility</h3>
+                                <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                        <div class="space-y-5">
+                                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span
+                                                class="text-[#131318] text-xl font-extrabold">95%</span></div>
+                                <h3 class="text-2xl font-semibold">Experienced Coach</h3>
+                                <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                        <div class="space-y-5">
+                                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span
+                                                class="text-[#131318] text-xl font-extrabold">90%</span></div>
+                                <h3 class="text-2xl font-semibold">Senior Player</h3>
+                                <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                        <div class="space-y-5">
+                                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
+                                                class="text-[#131318] text-xl font-extrabold">80%</span></div>
+                                <h3 class="text-2xl font-semibold">Training Ground</h3>
+                                <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        </div>
+                </div>
+                <hr class="border-black border-dashed mt-10 opacity-20">
+
+                <!-- program section -->
+                <div class="mt-20">
+                        <div class="text-center px-3 space-y-5  lg:px-40 ">
+                                <h1 class="text-2xl font-extrabold lg:text-4xl">Program Sections</h1>
+                                <p class="opacity-60">Step into the dynamic world of our Hockey Program Sections, where every facet of the game is meticulously curated to ignite passion, nurture skill, and foster a love for the sport. </p>
+                        </div>
+                        <hr class="border-black border-dashed mt-10 opacity-20">
+
+                </div>
+                <div class="grid  gap-5 mx-4 mt-10 lg:grid-cols-2 ">
+                        <div class="space-y-5 relative ">
+                                <img class="h-60 lg:h-full" src="Images/2.png" alt="">
+                                <div class="space-y-2 absolute bottom-3 px-5 py-2 lg:space-y-5 lg:bottom-2 lg:p-10 text-white" >
+                                        <h3 class="lg:text-3xl font-extrabold">Junior Program</h3>
+                                        <p class="font-medium">Unleash the potential within the young champions of tomorrow with our Hockey Junior Program. </p>
+                                                <a class="btn bg-primary-color border-0 text-white ">Register Now!</a>
+                                </div>
+
+                        </div>
+                        <div class="space-y-5 relative">
+                                <img class="h-60 lg:h-full  " src="Images/3.png" alt="">
+                                <div class="space-y-2 absolute text-white bottom-3 px-5 lg:space-y-5 lg:bottom-2 lg:p-10 ">
+                                        <h3 class="lg:text-3xl font-extrabold">Teenager Program</h3>
+                                        <p class="font-medium">Transitioning from adolescence to the formidable teenage years, our Teenager Program is designed to harness the energy and enthusiasm of aspiring hockey players. </p>
+                                                <a class="btn bg-primary-color border-0 text-white ">Register Now!</a>
+                                </div>
+
+                        </div>
+                        <div class="lg:col-span-2 space-y-5 relative">
+                                <img class="h-60 lg:h-full" src="Images/4.png" alt="">
+                                <div class="space-y-2 text-white absolute bottom-3 px-5 lg:space-y-5 lg:bottom-2 lg:p-10 ">
+                                        <h3 class="lg:text-3xl font-extrabold">Professional Program</h3>
+                                        <p class="font-medium lg:pr-[50%]">Welcome to the pinnacle of excellence in our Professional Program, where dedication meets elite training to shape the hockey stars of today and tomorrow.</p>
+                                                <a class="btn bg-primary-color border-0 text-white ">Register Now!</a>
+        
+                                </div>
+                        </div>
+
+                </div>
         </main>
 
 </body>
